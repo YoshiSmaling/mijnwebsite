@@ -1,0 +1,84 @@
+
+.alles {
+    margin-top: 80px;
+    position: relative;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1;
+    margin-top: -80px;
+    width: 100%;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.container-fluid.bg-1 .row .social {
+    display: inline;
+}
+
+.container-fluid.bg-1 .row img {
+    display: inline;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.container-fluid.bg-3 .col-sm-0 a:hover {
+    color: #555555;
+    text-decoration: none;
+}
+
+.profielfoto img {
+    width: 500px;
+    border-radius: 50px;
+}
+
+.logopng {
+    margin-top: -88px;
+    margin-left: -80px;
+}
+
+@media only screen and (min-width : 1700px) {
+    .container-fluid.bg-3 .thumbnail  {
+        width: 100%;
+
+    }
+    .container-fluid.bg-3 .thumbnail img {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width : 500px) {
+    .profielfoto img {
+        width: 250px;
+    }
+
+    img.logopng{
+        display: none;
+    }
+
+    .projectenfotos img {
+        width: 300px;
+    }
+
+
+}
+
+
+@media only screen and (max-width : 1000px) {
+    .container-fluid.bg-3 .thumbnail  {
+        width: 100%;
+
+    }
+    .container-fluid.bg-3 .thumbnail img {
+        display: none;
+    }
+}
+
+.projecten p {
+    font-weight: 900;
+}

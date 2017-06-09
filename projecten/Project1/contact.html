@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>PC4U</title>
+
+    <link rel="stylesheet" type="text/css" href="contact.css">
+
+</head>
+<body>
+
+<header>
+
+    <h1 class="hoofdtitel">PC4U</h1>
+
+</header>
+
+<nav>
+
+    <ul>
+
+        <li> <a href="index.html"> Home</a> </li>
+        <li> <a href="producten.html"> Producten</a> </li>
+        <li> <a href="service.html"> Service</a> </li>
+        <li> <a href="contact.html" class="contactnav"> <strong>Contact</strong> </a> </li>
+    </ul>
+
+</nav>
+
+
+<main>
+    <h1>Contact</h1>
+
+    <hr>
+
+
+            <form method="post" >
+
+
+            <fieldset id="persoon">
+                <legend>mijn gegevens</legend>
+
+                <input id="voornaam" name="voornaam" class="balkje" type="text">
+                <label for="voornaam">voornaam*</label><br>
+
+                <input id="tussenvoegsel" class="balkje" type="text">
+                <label for="tussenvoegsel">Tussenvoegsel</label> <br>
+
+                <input id="achternaam" name="achternaam" class="balkje" type="text">
+                <label for="achternaam">achternaam*</label><br>
+
+
+                <input type="radio" name="gender" class="balkje"  checked> Man
+                <input type="radio" name="gender" value=""> Vrouw<br>
+
+                <label for="email">Email*</label>
+                <input type="email" id="email" placeholder="example@example.com" class="balkje"> <br>
+
+                <label for="textarea">Plaats hier uw opmerkingen/vragen:</label> <br>
+                <textarea id="textarea" rows="6" cols="50" name="opmerking" placeholder="Plaats hier uw vragen of opmerkingrn">
+                </textarea>
+                <br>
+
+                <p> *Verplicht invullen </p>
+
+            </fieldset>
+
+
+            <fieldset id="send">
+                <legend>send</legend>
+                <input type="submit" value="Versturen" class="versturen">
+            </fieldset>
+
+                </form>
+
+
+
+
+
+</main>
+
+<footer>
+    <a href="mailto:ysmaling@gmail.com">E-mail</a>
+    <p>Yoshi Smaling</p>
+    <p>Paulus Potterstraat 51, Schiedam</p>
+</footer>
+
+
+</body>
+</html>
+
